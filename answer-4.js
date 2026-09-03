@@ -1,6 +1,6 @@
 // Question No. 4
 function getCngFare(distance, isNight = false, waitingMinutes = 0) {
-  let fare = 50; // minimum fare for first 2 km
+  let fare = 50; 
   if (distance > 2) {
     fare += (distance - 2) * 15;
   }
